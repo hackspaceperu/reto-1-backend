@@ -5,8 +5,11 @@
 El fin de este reto es aprender, pues veremos nuevas herramientas. Las nuevas herramientas a entender son:
 
 -Uso de package.json
+
 -Servidor RESTful y peticiones CRUD
+
 -MongoDB y Mongoose
+
 -Express
 
 

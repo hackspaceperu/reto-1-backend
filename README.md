@@ -228,7 +228,7 @@ server.listen(3000, function() {
 });
 ```
 
-#### Instalando MongoDB
+#### Iniciando MongoDB
 
 Para poder **iniciar MongoDB** debes ejecutar en otra terminal:
 

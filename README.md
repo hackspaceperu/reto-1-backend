@@ -1,6 +1,6 @@
 # Reto 1 de Backend
 
-[Descarga el código para el reto aquí haciendo click en "Raw".](Reto1Backend.zip)
+[Descarga el código para el reto aquí".](Reto1Backend.zip?raw=true)
 
 El fin de este reto es aprender, pues veremos nuevas herramientas. Las nuevas herramientas a entender son:
 

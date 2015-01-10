@@ -90,7 +90,7 @@ Habiendo descargado el código, vamos a explicarlo, se trata de un Web Server qu
 
 Vamos a crear una aplicación CRUD (Create/Read/Update/Delete) para mostrar como trabaja.
 
-El primer paso es crear un directorio local llamado **"node-api-rest-example"** al cual llamaremos **directorio raíz** de la aplicación.
+El primer paso es crear un directorio local llamado **"Reto1Backend"** al cual llamaremos **directorio raíz** de la aplicación.
 
 ### Package.json
 

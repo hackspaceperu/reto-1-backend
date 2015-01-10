@@ -123,7 +123,7 @@ Veremos que se descargan las dependencias en una nueva carpeta en el **directori
 var express  = require("express"),
     app      = express(),
     http     = require("http"),
-    server   = http.createServer(app),
+    server   = http.createServer(app);
 
 app.configure(function () {
   app.use(express.bodyParser());
@@ -197,7 +197,7 @@ mongoose.connect('mongodb://localhost/tvshows');
 Quedando así el código de app.js:
 
 
-```
+```js
 //app.js
 var express  = require("express"),
     app      = express(),

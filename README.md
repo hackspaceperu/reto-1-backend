@@ -283,12 +283,12 @@ node app.js
 Ahora desde otra terminal, podemos entrar al shell de MongoDB y comprobar que la base de datos se ha creado correctamente. Para ello ejecutamos el comando **mongo**:
 
 ```
-$ **mongo**
+$ mongo
 MongoDB shell version: 2.4.1  
 connecting to: test  
-> **use tvshows**
+> use tvshows
 switched to db tvshows  
-> **show dbs**
+> show dbs
 local    0.078125GB  
 tvshows    (empty)  
 >_
@@ -577,17 +577,17 @@ Pulsamos SEND y si todo va bien, la petición se realizará y abajo de la aplica
 ¿Cómo comprobamos si se ha guardado en nuestra base de datos? Muy sencillo, en nuestro terminal ejecutamos el Shell de mongo con el comando **mongo** e introducimos los siguiente comandos:
 
 ```
-$ **mongo**
+$ mongo
 MongoDB shell version: 2.4.1  
 connecting to: test  
-> **show databases**
+> show databases
 tvshows    0.203125GB  
-> **use tvshows**
+> use tvshows
 switched to db tvshows  
-> **show collections**
+> show collections
 system.indexes  
 tvshows  
-> **db.tvshows.find()**
+> db.tvshows.find()
 { "title" : "LOST", "year" : 2004, "country" : "USA", "poster" : "http://ia.media-imdb.com/images/M/MV5BMjA3NzMyMzU1MV5BMl5BanBnXkFtZTcwNjc1ODUwMg@@._V1_SY317_CR17,0,214,317_.jpg", "seasons" : 6, "genre" : "Sci-Fi", "summary" : "The survivors of a plane crash are forced to live with each other on a remote island, a dangerous new world that poses unique threats of its own.", "_id" : ObjectId("51b44d7899ac57fb18000002"), "__v" : 0 }
 ```
 

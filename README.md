@@ -1,6 +1,6 @@
 # Reto 1 de Backend
 
-[Descarga el código para el reto aquí".](Reto1Backend.zip?raw=true)
+[Descarga el código para el reto aquí.](Reto1Backend.zip?raw=true)
 
 El fin de este reto es aprender, pues veremos nuevas herramientas. Las nuevas herramientas a entender son:
 
@@ -86,9 +86,9 @@ brew install mongodb
 
 ## Creando una API RESTful
 
-En esta entrada explicaremos como crear un Web Server que sirva una API RESTful usando para ello la tecnología de Node.js y todo el JavaScript que podamos, incluyendo la base de datos (MongoDB) y el plugin para conectarnos a ella y mapear los modelos (Mongoose).
+Habiendo descargado el código, vamos a explicarlo, se trata de un Web Server que sirve una API RESTful, para ello usamos la tecnología de Node.js y JavaScript, incluyendo la base de datos (MongoDB) y el plugin para conectarnos a ella y mapear los modelos (Mongoose).
 
-Vamos a crear una aplicación CRUD (Create/Read/Update/Delete) para mostrar como trabaja y explicar como desplegarla en un entorno Cloud como Heroku. Vamos allá!
+Vamos a crear una aplicación CRUD (Create/Read/Update/Delete) para mostrar como trabaja.
 
 El primer paso es crear un directorio local llamado **"node-api-rest-example"** al cual llamaremos **directorio raíz** de la aplicación.
 

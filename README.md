@@ -399,6 +399,7 @@ updateTVShow = function(req, res) {
   });
 }
 ```
+##### Método DELETE
 
 Y por último para completar la funcionalidad CRUD de nuestra API, necesitamos la función que nos permita eliminar registros de la base de datos y eso lo podemos hacer con el código de a continuación:
 

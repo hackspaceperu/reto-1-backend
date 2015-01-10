@@ -551,7 +551,9 @@ Para ello nos dirigimos a [restconsole.com](restconsole.com) que es una extensi�
 Antes de probarlo, debemos tener **mongo** y el servidor **node** de nuestra app **corriendo**. Una vez hecho esto introducimos los siguientes datos para hacer una llamada POST que almacene un registro en la base de datos.
 
 a.**Target**: http://localhost:3000/tvshow (Dónde está ejecutándose la aplicación y la llamada al método POST que hemos programado)
+
 b.**Content-Type**: application/json (en los dos input que nos dan)
+
 c.**Request-Payload**: Aquí va el cuerpo de nuestra petición, con el objeto JSON siguiente (por ejemplo):
 
 ```json
